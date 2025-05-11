@@ -98,13 +98,13 @@ Server akan berjalan di `http://localhost:8000/`.
 ## 📋 Hasil Model dan Tampilan Frontend
 
 - Training Model <br>
-![Screenshot](images/Screenshot-training-model.png)
+![Screenshot](images/"Screenshot training model.png"))
 
 - Evaluasi Model <br>
-![Screenshot](images/Screenshot-hasil-evaluasi-model.png)
+![Screenshot](images/"Screenshot hasil evaluasi model.png")
 
 - Evaluasi Model <br>
-![Screenshot](images/Screenshot-frontend-(1).png) <br>
-![Screenshot](images/Screenshot-frontend-(2).png)
+![Screenshot](images/"Screenshot frontend (1).png") <br>
+![Screenshot](images/"Screenshot frontend (2).png")
 
 ---
