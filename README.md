@@ -26,17 +26,20 @@ Model yang dilatih kemudian akan diintegrasikan ke dalam aplikasi backend berbas
 ## 📂 Struktur Folder Proyek
 
 ```
-project-root/
+Tugas3-Pembelajaran_Machine_Learning/
 ├── backend/
-│   └── main.py         # Kode backend FastAPI
+│   ├── main.py         # Kode backend FastAPI
+│   └──requirements.txt
+├── frontend/
+│   ├── main.py         # Kode frontend UI
+│   └──requirements.txt          
 ├── model/
-│   └── best_transfer.h5 # Model hasil training yang disimpan
+│   └── best_transfer.keras # Model hasil training yang disimpan
 ├── dataset/
 │   ├── rock/
 │   ├── paper/
 │   └── scissor/
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
@@ -56,20 +59,19 @@ Buat environment baru, lalu install dependencies:
 
 pip install -r requirements.txt
 
-### 3. Download Dataset
+### 3. Dataset
 
-Unduh dataset Rock-Paper-Scissors dari Kaggle:  
+Dataset diunduh dari Kaggle (Rock-Paper-Scissors) :  
 🔗 [Rock-Paper-Scissors Dataset – Kaggle](https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors)
 
-Setelah download dan ekstrak:
-- Susun dataset ke dalam folder:
+Struktur folder dataset seperti ini :
 
 dataset/
     rock/
     paper/
     scissor/
 
-### 4. Jalankan Backend FastAPI
+### 4. Menjalankan Program
 
 Masuk ke folder `frontend/`, lalu jalankan:
 
@@ -83,14 +85,6 @@ Kemudian, masuk ke folder `backend/`, lalu jalankan:
 
 Server akan berjalan di `http://localhost:8000/`.
 
-### 5. Mengerjakan Tugas Praktikum
-
-Praktikan diminta untuk:
-
-- Melengkapi beberapa bagian kode yang kosong (`TODO`) sesuai dengan instruksi di notebook dan file `main.py`.
-- Memastikan bahwa preprocessing saat inferensi **konsisten** dengan preprocessing saat training.
-- Melakukan eksperimen kecil (augmentasi, tuning hyperparameter) untuk meningkatkan performa model.
-
 ---
 
 ## 🎯 Tujuan Pembelajaran
@@ -101,10 +95,16 @@ Praktikan diminta untuk:
 
 ---
 
-## 📋 Catatan Penting
+## 📋 Hasil Model dan Tampilan Frontend
 
-- Pastikan struktur dataset rapi dan sesuai.
-- Pastikan preprocessing konsisten antara training dan backend inference.
-- Jangan lupa untuk mengisi seluruh bagian `TODO` yang ada dalam kode.
+- Training Model <br>
+![Screenshot](images/Screenshot-training-model.png)
+
+- Evaluasi Model <br>
+![Screenshot](images/Screenshot-hasil-evaluasi-model.png)
+
+- Evaluasi Model <br>
+![Screenshot](images/Screenshot-frontend-(1).png) <br>
+![Screenshot](images/Screenshot-frontend-(2).png)
 
 ---
