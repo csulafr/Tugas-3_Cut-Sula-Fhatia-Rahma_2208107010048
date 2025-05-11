@@ -1,4 +1,6 @@
 # Rock-Paper-Scissors Classification Project 🪨📄✂️
+
+**Cut Sula Fhatia Rahma**  (2208107010048)
 ---
 
 ## 📚 Deskripsi Proyek
@@ -43,8 +45,8 @@ project-root/
 
 ### 1. Clone Repository
 
-git clone https://github.com/furqanx/Tugas-Pembelajaran-Mesin.git <br>
-cd Tugas-Pembelajaran-Mesin
+git clone https://github.com/csulafr/Tugas-3_Cut-Sula-Fhatia-Rahma_2208107010048.git <br>
+cd Tugas-3_Cut-Sula-Fhatia-Rahma_2208107010048
 
 ### 2. Siapkan Environment Python
 
